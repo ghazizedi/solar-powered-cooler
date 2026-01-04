@@ -4,8 +4,6 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 
 > **Highlight:** Team earned a **Best Presentation Award** for clearly communicating design, trade-offs, and results.
 
-## Demo / Photos
-
 ### Final Build
 ![Final build](media/images/final-build.png)
 
@@ -39,10 +37,14 @@ We attempted a solar tracking mechanism to maintain panel alignment with the sun
 - mechanical complexity of building a reliable tracking mechanism
 - prioritizing core cooler functionality over advanced features
 
+![Controller Arm](media/images/controller-arm.jpg)
+
 What we learned:
 - importance of **scope control**
 - designing for **testability** and incremental milestones
 - balancing ambition vs. reliability under constraints
+
+![Solar Panel](media/images/solar-panel.jpg)
 
 ## What Went Well
 
