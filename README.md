@@ -30,6 +30,8 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 - **Mounting + packaging:** secured electronics externally for access and airflow.
 - **Iterative fit:** adjusted clearances/fastener placement to avoid rework.
 
+![Technical Drawing](media/images/technical-drawing.jpeg)
+
 ## Solar Tracking (Prototype Attempt)
 
 We attempted a solar tracking mechanism to maintain panel alignment with the sun, but it remained incomplete due to:
