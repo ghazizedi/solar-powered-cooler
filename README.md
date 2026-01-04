@@ -73,7 +73,7 @@ What we learned:
 
 ## How to Reproduce / Improve
 
-1. Build insulated enclosure (see CAD/drawings)
+1. Build insulated enclosure
 2. Install power system: panel → controller → battery
 3. Add fused distribution to loads
 4. Validate voltages/currents under load
