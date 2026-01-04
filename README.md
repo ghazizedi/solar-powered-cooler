@@ -39,8 +39,6 @@ We attempted a solar tracking mechanism to maintain panel alignment with the sun
 - mechanical complexity of building a reliable tracking mechanism
 - prioritizing core cooler functionality over advanced features
 
-![Controller Arm](media/images/controller-arm.jpg)
-
 What we learned:
 - importance of **scope control**
 - designing for **testability** and incremental milestones
