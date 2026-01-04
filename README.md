@@ -7,7 +7,7 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 ## Demo / Photos
 
 ### Final Build
-![Final build](media/photos/final-build.jpg)
+![Final build](media/images/final-build.png)
 
 ## Project Goals
 
