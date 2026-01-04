@@ -9,10 +9,6 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 ### Final Build
 ![Final build](media/photos/final-build.jpg)
 
-### Short Demo Video
-- Demo video: `media/videos/demo.mp4`  
-  (If GitHub doesn’t preview it smoothly, upload to YouTube/Drive and link it here.)
-
 ## Project Goals
 
 - **Core Functionality:** Solar panel powers the system and charges a battery bank to run cooling hardware.
@@ -23,18 +19,6 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 
 ### High-Level Architecture
 **Solar Panel → Charge Controller → Battery → Loads (cooling system + control electronics)**
-
-> Add your exact components/ratings below once you confirm them.
-
-## Bill of Materials (BOM)
-
-| Category | Component | Key Specs | Notes |
-|---|---|---:|---|
-| Power | Solar Panel | TBD (W) | Mounted external/portable |
-| Power | Charge Controller | TBD | Battery charging + protection |
-| Storage | Battery | TBD (Ah, V) | Runtime buffer |
-| Cooling | Cooler module / fan(s) | TBD | Primary cooling load |
-| Wiring | Connectors, fuses, switches | TBD | Safety + maintainability |
 
 ## Electrical Notes (What mattered)
 
