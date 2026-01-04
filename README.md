@@ -4,8 +4,6 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 
 > **Highlight:** Team earned a **Best Presentation Award** for clearly communicating design, trade-offs, and results.
 
----
-
 ## Demo / Photos
 
 ### Final Build
@@ -15,15 +13,11 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 - Demo video: `media/videos/demo.mp4`  
   (If GitHub doesn’t preview it smoothly, upload to YouTube/Drive and link it here.)
 
----
-
 ## Project Goals
 
 - **Core Functionality:** Solar panel powers the system and charges a battery bank to run cooling hardware.
 - **Reliability:** Stable electrical integration (wiring, power delivery, safety).
 - **Stretch Goal:** Implement a **solar tracking system** to improve panel efficiency.
-
----
 
 ## System Overview
 
@@ -31,8 +25,6 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 **Solar Panel → Charge Controller → Battery → Loads (cooling system + control electronics)**
 
 > Add your exact components/ratings below once you confirm them.
-
----
 
 ## Bill of Materials (BOM)
 
@@ -44,29 +36,17 @@ A portable cooler powered by a solar panel + battery system. The primary goal wa
 | Cooling | Cooler module / fan(s) | TBD | Primary cooling load |
 | Wiring | Connectors, fuses, switches | TBD | Safety + maintainability |
 
-Full BOM: [`electrical/bom.csv`](electrical/bom.csv)
-
----
-
 ## Electrical Notes (What mattered)
 
 - **Power budgeting:** estimated load current, runtime targets, and solar charging capability.
 - **Safety:** fuse placement, proper wire gauge, strain relief, connector choice.
 - **Integration:** clean routing + serviceable layout for debugging and iteration.
 
-See: [`electrical/`](electrical/)
-
----
-
 ## Mechanical / Enclosure Notes
 
 - **Insulation strategy:** foam body + reflective lining to reduce heat gain.
 - **Mounting + packaging:** secured electronics externally for access and airflow.
 - **Iterative fit:** adjusted clearances/fastener placement to avoid rework.
-
-CAD / drawings: [`cad/`](cad/)
-
----
 
 ## Solar Tracking (Prototype Attempt)
 
@@ -80,23 +60,17 @@ What we learned:
 - designing for **testability** and incremental milestones
 - balancing ambition vs. reliability under constraints
 
----
-
 ## What Went Well
 
 - Built a **functional solar-powered cooler** achieving core objectives.
 - Created **detailed 3D models and technical drawings** to guide fabrication.
 - Strong communication and planning during presentations, resulting in a **Best Presentation Award**.
-
----
-
+  
 ## What Didn’t Go Well (and what I’d change)
 
 - Solar tracking was over-scoped for the remaining timeline.
 - Time management became challenging across design + build + integration.
 - Next time: prototype the tracker earlier, simplify mechanics, and define a minimum viable tracking design first.
-
----
 
 ## Skills Demonstrated / Learned
 
@@ -111,18 +85,6 @@ What we learned:
 - **Problem-solving under constraints:** traded advanced features for core reliability
 - **Communication:** explaining complex concepts clearly to a broad audience
 
----
-
-## Build Log
-
-Progress and decisions are documented here:
-- [`build-log/01-planning.md`](build-log/01-planning.md)
-- [`build-log/02-mechanical.md`](build-log/02-mechanical.md)
-- [`build-log/03-electrical.md`](build-log/03-electrical.md)
-- [`build-log/04-integration.md`](build-log/04-integration.md)
-
----
-
 ## How to Reproduce / Improve
 
 1. Build insulated enclosure (see CAD/drawings)
@@ -132,8 +94,6 @@ Progress and decisions are documented here:
 5. Measure runtime + cooling performance
 6. (Optional) add simplified solar tracking module
 
----
-
 ## Future Improvements
 
 - Add instrumentation (voltage/current logging) for efficiency tracking
@@ -141,7 +101,5 @@ Progress and decisions are documented here:
 - Rebuild tracker as a smaller MVP (single-axis, simpler linkage)
 - Optimize insulation + airflow around electronics
 
----
-
 ## License
-Choose a license (MIT is common for student projects). See `LICENSE`.
+See `LICENSE`.
